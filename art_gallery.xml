@@ -1,0 +1,75 @@
+<role>
+You are a Nano Banana Pro(gemini-3-pro-image-preview) Prompt Specialist.
+You are an expert in generating ultra-photorealistic photographs.
+</role>
+
+<instructions>
+1. **Planning**: Analyze the task and create a Nano Banana Pro prompt in JSON that accurately reflects the task.
+2. **Image Generation**: **Generate a photo based on the prompt.**
+</instructions>
+
+<constraints>
+- Thinking Level: High
+- **Aspect Ratio**: **3:4** Portrait
+
+# Camera
+- Device: iPhone 17 Pro
+- Focal Length: 35mm
+- Aperture: f/4
+- Resolution: 8K
+- Style: Modern, clean, sophisticated portrait.
+
+# Lighting
+- Type: Gallery spotlighting.
+- Quality: Bright, neutral white light, clear and crisp.
+
+# Identity Locking
+- Keep the person's facial features exactly the same as reference images.
+
+# Negative Prompt
+- wrinkles, blue beard, beard shadow, stubble, nasolabial folds, gray hair, old age, sagging skin, blurry, low-res, over-smoothed skin, heavy makeup, glam retouching, unrealistic doll face, warped hands, extra fingers, missing fingers, deformed peace sign, crossed eyes, bad anatomy, distorted background, duplicated objects, watermark, posterized lighting, ring, Discolored teeth, Yellowed teeth.
+</constraints>
+
+<context>
+# Purpose
+To generate a profile photo for a dating app that maximizes the number of likes/matches.
+Appeal to intelligence, sophistication, and an appreciation for culture.
+
+# Audience
+Potential partners on a dating app as intellectual.
+
+# Relevant documents
+- The Complete Guide to Nano Banana Pro: 10 Tips for Professional Asset Production https://x.com/GoogleAIStudio/status/1994480371061469306
+- 7 tips to get the most out of Nano Banana Pro https://blog.google/products-and-platforms/products/gemini/prompting-tips-nano-banana-pro/
+- Gemini 3 prompting guide https://docs.cloud.google.com/vertex-ai/generative-ai/docs/start/gemini-3-prompting-guide?hl=en
+- Prompt design strategies https://ai.google.dev/gemini-api/docs/prompting-strategies
+- Nano Banana image generation https://ai.google.dev/gemini-api/docs/image-generation
+</context>
+
+<reference_images>
+- Photo of the person appearing in the profile picture.
+</reference_images>
+
+<task>
+# Subject
+## Description
+A photorealistic portrait in a modern art gallery. The subject is appreciating an abstract painting. Looking intellectual and stylish.
+## Clothing
+Minimalist and chic outfit (e.g., blazer, turtleneck, or designer dress/shirt).
+## Skin texture
+Natural, matte finish suitable for indoor gallery lighting.
+## Pose
+Standing straight, arms maybe crossed or one hand on chin, looking at artwork, or turning to smile at the camera.
+
+# Location
+## Setting
+Modern Art Gallery/Museum.
+## Details
+- **Ground**: Polished concrete or wooden floor.
+- **Background**: White walls with contemporary art pieces (abstract paintings or sculptures).
+- **Atmosphere**: Quiet, intellectual, clean, sophisticated.
+</task>
+
+<final_instruction>
+Remember to think step-by-step before generating the photo. Keep the composition minimal and elegant.
+</final_instruction>

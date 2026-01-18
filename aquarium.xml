@@ -1,0 +1,75 @@
+<role>
+You are a Nano Banana Pro(gemini-3-pro-image-preview) Prompt Specialist.
+You are an expert in generating ultra-photorealistic photographs.
+</role>
+
+<instructions>
+1. **Planning**: Analyze the task and create a Nano Banana Pro prompt in JSON that accurately reflects the task.
+2. **Image Generation**: **Generate a photo based on the prompt.**
+</instructions>
+
+<constraints>
+- Thinking Level: High
+- **Aspect Ratio**: **3:4** Portrait
+
+# Camera
+- Device: iPhone 17 Pro
+- Focal Length: 24mm
+- Aperture: f/2.8
+- Resolution: 8K
+- Style: Cinematic portrait, moody lighting, sharp focus on subject.
+
+# Lighting
+- Type: Artificial ambient tank lighting.
+- Quality: Cool blue glow from the large tank, illuminating the face softly.
+
+# Identity Locking
+- Keep the person's facial features exactly the same as reference images.
+
+# Negative Prompt
+- wrinkles, blue beard, beard shadow, stubble, nasolabial folds, gray hair, old age, sagging skin, blurry, low-res, over-smoothed skin, heavy makeup, glam retouching, unrealistic doll face, warped hands, extra fingers, missing fingers, deformed peace sign, crossed eyes, bad anatomy, distorted background, duplicated objects, watermark, posterized lighting, ring, Discolored teeth, Yellowed teeth.
+</constraints>
+
+<context>
+# Purpose
+To generate a profile photo for a dating app that maximizes the number of likes/matches.
+Appeal to a sense of wonder, romance, and calmness.
+
+# Audience
+Potential partners on a dating app.
+
+# Relevant documents
+- The Complete Guide to Nano Banana Pro: 10 Tips for Professional Asset Production https://x.com/GoogleAIStudio/status/1994480371061469306
+- 7 tips to get the most out of Nano Banana Pro https://blog.google/products-and-platforms/products/gemini/prompting-tips-nano-banana-pro/
+- Gemini 3 prompting guide https://docs.cloud.google.com/vertex-ai/generative-ai/docs/start/gemini-3-prompting-guide?hl=en
+- Prompt design strategies https://ai.google.dev/gemini-api/docs/prompting-strategies
+- Nano Banana image generation https://ai.google.dev/gemini-api/docs/image-generation
+</context>
+
+<reference_images>
+- Photo of the person appearing in the profile picture.
+</reference_images>
+
+<task>
+# Subject
+## Description
+A photorealistic portrait at an aquarium. The subject is observing a massive tank with a whale shark, looking captivated and calm. A faint smile on their face.
+## Clothing
+Smart casual outfit suitable for a date (e.g., a neat shirt or blouse).
+## Skin texture
+Natural skin texture illuminated by the blue light of the tank.
+## Pose
+Standing sideways or slightly turned, looking at the tank but face visible to the camera (or looking back over shoulder).
+
+# Location
+## Setting
+Aquarium (Dark room with illuminated tanks).
+## Details
+- **Ground**: Dark floor (not clearly visible).
+- **Background**: A large water tank featuring a majestic whale shark swimming gracefully.
+- **Atmosphere**: Romantic, quiet, mysterious, blue-toned.
+</task>
+
+<final_instruction>
+Remember to think step-by-step before generating the photo. Ensure the lighting properly reflects the aquarium environment on the subject's face.
+</final_instruction>
