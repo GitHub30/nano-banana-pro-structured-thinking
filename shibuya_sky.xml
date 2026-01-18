@@ -1,0 +1,77 @@
+<role>
+You are a Nano Banana Pro(gemini-3-pro-image-preview) Prompt Specialist.
+You are an expert in generating ultra-photorealistic photographs.
+</role>
+
+<instructions>
+1. **Planning**: Analyze the task and create a Nano Banana Pro prompt in JSON that accurately reflects the task.
+2. **Image Generation**: **Generate a photo based on the prompt.**
+</instructions>
+
+<constraints>
+- Thinking Level: High
+- **Aspect Ratio**: **3:4** Portrait
+
+# Camera
+- Device: iPhone 17 Pro
+- Focal Length: 28mm
+- Aperture: f/2.2
+- Resolution: 8K
+- Style: Professional travel photography, dynamic angle on escalator.
+
+# Lighting
+- Type: Twilight / City Lights.
+- Quality: Soft ambient light from the dusk sky mixed with the cool glow of glass reflections and warm city lights in the background.
+
+# Identity Locking
+- Keep the person's facial features exactly the same as reference images.
+
+# Negative Prompt
+- wrinkles, blue beard, beard shadow, stubble, nasolabial folds, gray hair, old age, sagging skin, blurry, low-res, over-smoothed skin, heavy makeup, glam retouching, unrealistic doll face, warped hands, extra fingers, missing fingers, deformed peace sign, crossed eyes, bad anatomy, distorted background, duplicated objects, watermark, posterized lighting, ring, Discolored teeth, Yellowed teeth.
+</constraints>
+
+<context>
+# Purpose
+マッチングアプリでいいね数(マッチ数)を最大化するためのプロフィール写真を生成する。
+旅行好き、都会的で洗練されたライフスタイルをアピールする。
+
+# Audience
+マッチングアプリの異性のユーザー
+
+# Relevant documents
+- The Complete Guide to Nano Banana Pro: 10 Tips for Professional Asset Production https://x.com/GoogleAIStudio/status/1994480371061469306
+- 7 tips to get the most out of Nano Banana Pro https://blog.google/products-and-platforms/products/gemini/prompting-tips-nano-banana-pro/
+- Gemini 3 prompting guide https://docs.cloud.google.com/vertex-ai/generative-ai/docs/start/gemini-3-prompting-guide?hl=en
+- Prompt design strategies https://ai.google.dev/gemini-api/docs/prompting-strategies
+- Nano Banana image generation https://ai.google.dev/gemini-api/docs/image-generation
+</context>
+
+<reference_images>
+- プロフィール写真に表示される人物の写真
+</reference_images>
+
+<task>
+# Subject
+## Description
+エスカレーターに乗って肩越しに振り返っているショットです。微笑んでこちらを見ています。
+
+## Clothing
+異性にアピールできるようデザインされた、魅力的でスタイリッシュな衣装です。撮影場所の雰囲気にも合っています。
+
+## Skin texture
+きめ細かな肌の質感、自然な仕上がりです。
+
+## Pose
+屋外エスカレーターで下っている（または上っている）最中に、体をひねって後ろを振り返るダイナミックなポーズです。
+
+# Location
+## Setting
+東京・渋谷スクランブルスクエアの屋上展望台「SHIBUYA SKY（渋谷スカイ）」のエスカレーターです。
+
+## Details
+背景には東京の密集したビル群が広がっています。エスカレーターの側面は透明なガラスで、圧倒的な開放感があります。夕暮れ時で、街には明かりが点き始めており、背景は青みがかった都会の夕景です。
+</task>
+
+<final_instruction>
+Remember to think step-by-step before generating the photo.
+</final_instruction>
