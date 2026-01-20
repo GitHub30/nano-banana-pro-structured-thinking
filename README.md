@@ -1,24 +1,6 @@
-# 目標
+# Gemini Watermark Remover
 
-たくさんのバリエーションのプロンプトを作成する。
+https://github.com/journey-ad/gemini-watermark-remover
 
-# Nano Banana Proの思考モードのメリット
+https://github.com/allenk/GeminiWatermarkTool
 
-服装などのプロンプトを作りこまなくても、目的を明確にすれば、AIが最適な服装を提案してくれる。
-
-# 重要
-
-- 顔の特徴を変えると別人になる。(整形は一般的ではない)
-
-# 変更可能な項目
-- 体型は痩せれば変えられる。
-- 髪型は美容院で変えられる。
-- 肌は化粧で変えられる。
-
-# Gemini Watermarkの削除
-- Googleフォトの消しゴムマジック
-- Windowsの消しゴム
-
-# 引用
-
-マリオ https://getnews.jp/archives/2969169
